@@ -32,7 +32,7 @@
             <url>http://18.188.175.27:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>nexus-deploy</id>
             <name>Internal Snapshot Releases</name>
             <url>http://18.188.175.27:8081/repository/maven-snapshots/</url>
         </snapshotRepository>

@@ -28,7 +28,7 @@ pipeline {
 	
 	stage ('installApplication') {
 	  steps {
-	    sh 'scp /root/workspace/target/studentapp-2.1.1-FEAT01-SNAPSHOT.war root@172.31.10.29:/var/lib/tomcat/webapps'
+	    sh 'scp /root/workspace/sample_pipeline/target/studentapp-2.1.1-FEAT01-SNAPSHOT.war root@172.31.10.29:/var/lib/tomcat/webapps'
 	  }
 	}
 	
